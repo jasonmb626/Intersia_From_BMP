@@ -4,6 +4,7 @@ import json
 
 im = Image.open(sys.argv[1], 'r')
 outfile = sys.argv[1].replace('.bmp', '.sts')
+
 f = open(outfile, "w")
 
 width, height = im.size
